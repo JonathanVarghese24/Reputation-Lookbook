@@ -11,11 +11,11 @@
 		D85793952B02767C00079E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85793942B02767C00079E1E /* ContentView.swift */; };
 		D85793972B02768000079E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85793962B02768000079E1E /* Assets.xcassets */; };
 		D857939A2B02768000079E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85793992B02768000079E1E /* Preview Assets.xcassets */; };
-		D85793C32B02E29F00079E1E /* SwiftUIView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85793C22B02E29F00079E1E /* SwiftUIView01.swift */; };
 		D85793C72B02EA6600079E1E /* Arkham_reg.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D85793C52B02EA6600079E1E /* Arkham_reg.TTF */; };
 		D85793C82B02EA6600079E1E /* Arkham_bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D85793C62B02EA6600079E1E /* Arkham_bold.TTF */; };
-		D85793CA2B02EB7500079E1E /* SwiftUIView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85793C92B02EB7500079E1E /* SwiftUIView02.swift */; };
-		D85793CC2B02EBF100079E1E /* SwiftUIView03.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85793CB2B02EBF100079E1E /* SwiftUIView03.swift */; };
+		D8CD0DB72B20CB1B00B6726A /* Hoodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */; };
+		D8CD0DB92B221A7A00B6726A /* Zips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DB82B221A7A00B6726A /* Zips.swift */; };
+		D8CD0DBB2B221B3300B6726A /* Shirts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DBA2B221B3300B6726A /* Shirts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +24,11 @@
 		D85793942B02767C00079E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D85793962B02768000079E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D85793992B02768000079E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D85793C22B02E29F00079E1E /* SwiftUIView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView01.swift; sourceTree = "<group>"; };
 		D85793C52B02EA6600079E1E /* Arkham_reg.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arkham_reg.TTF; sourceTree = "<group>"; };
 		D85793C62B02EA6600079E1E /* Arkham_bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arkham_bold.TTF; sourceTree = "<group>"; };
-		D85793C92B02EB7500079E1E /* SwiftUIView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView02.swift; sourceTree = "<group>"; };
-		D85793CB2B02EBF100079E1E /* SwiftUIView03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView03.swift; sourceTree = "<group>"; };
+		D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoodies.swift; sourceTree = "<group>"; };
+		D8CD0DB82B221A7A00B6726A /* Zips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zips.swift; sourceTree = "<group>"; };
+		D8CD0DBA2B221B3300B6726A /* Shirts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shirts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 			children = (
 				D85793922B02767C00079E1E /* Reputation_LookbookApp.swift */,
 				D85793942B02767C00079E1E /* ContentView.swift */,
-				D85793C22B02E29F00079E1E /* SwiftUIView01.swift */,
-				D85793C92B02EB7500079E1E /* SwiftUIView02.swift */,
-				D85793CB2B02EBF100079E1E /* SwiftUIView03.swift */,
+				D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */,
+				D8CD0DB82B221A7A00B6726A /* Zips.swift */,
+				D8CD0DBA2B221B3300B6726A /* Shirts.swift */,
 				D85793962B02768000079E1E /* Assets.xcassets */,
 				D85793C42B02EA6600079E1E /* arkham (1) */,
 				D85793982B02768000079E1E /* Preview Content */,
@@ -162,11 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CD0DB92B221A7A00B6726A /* Zips.swift in Sources */,
+				D8CD0DBB2B221B3300B6726A /* Shirts.swift in Sources */,
 				D85793952B02767C00079E1E /* ContentView.swift in Sources */,
 				D85793932B02767C00079E1E /* Reputation_LookbookApp.swift in Sources */,
-				D85793CA2B02EB7500079E1E /* SwiftUIView02.swift in Sources */,
-				D85793CC2B02EBF100079E1E /* SwiftUIView03.swift in Sources */,
-				D85793C32B02E29F00079E1E /* SwiftUIView01.swift in Sources */,
+				D8CD0DB72B20CB1B00B6726A /* Hoodies.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

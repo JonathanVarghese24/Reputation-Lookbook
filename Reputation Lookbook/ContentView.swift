@@ -14,25 +14,36 @@ struct ContentView: View {
                 Color.black.opacity(0.8).ignoresSafeArea()
                 VStack{
                     Image("logo").resizable().frame(width: 300, height: 300)
-                    Text("Collection and Concepts")
+                    Text("Collection and Concepts Lookbook")
                         .foregroundColor(Color.white)
                         .font(Font.system(size: 15))
                         .font(.title).bold()
                         .padding()
-                
-                NavigationLink("Pullovers", destination: SwiftUIView01(phrase: " "))
+                    Link("Website", destination: URL(string: "https://www.shoprep.xyz/password")!)
+                        .foregroundColor(Color.white)
+                        .font(Font.system(size: 15))
+                        .font(.title).bold()
+            
+                    
+                    Link("Instagram", destination: URL(string: "https://www.instagram.com/reputation.apparel/")!)
+                        .foregroundColor(Color.white)
+                        .font(Font.system(size: 15))
+                        .font(.title).bold()
+                        .padding()
+                    
+                NavigationLink("Pullovers", destination: Hoodies(phrase: " "))
                     .foregroundColor(Color.white)
                     .font(Font.system(size: 35))
                     .font(.title).bold()
                     .padding()
 
-                NavigationLink("Zip Ups", destination: SwiftUIView02(phrase: " "))
+                NavigationLink("Zip Ups", destination: Zips(phrase: " "))
                     .foregroundColor(Color.white)
                     .font(Font.system(size: 35))
                     .font(.title).bold()
                     .padding()
 
-                NavigationLink("T-Shirts", destination: SwiftUIView03(phrase: " "))
+                NavigationLink("T-Shirts", destination: Shirts(phrase: " "))
                     .foregroundColor(Color.white)
                     .font(Font.system(size: 35))
                     .font(.title).bold()
