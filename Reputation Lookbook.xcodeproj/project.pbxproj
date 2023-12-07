@@ -16,6 +16,7 @@
 		D8CD0DB72B20CB1B00B6726A /* Hoodies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */; };
 		D8CD0DB92B221A7A00B6726A /* Zips.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DB82B221A7A00B6726A /* Zips.swift */; };
 		D8CD0DBB2B221B3300B6726A /* Shirts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DBA2B221B3300B6726A /* Shirts.swift */; };
+		D8CD0DBD2B221E7100B6726A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD0DBC2B221E7100B6726A /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoodies.swift; sourceTree = "<group>"; };
 		D8CD0DB82B221A7A00B6726A /* Zips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zips.swift; sourceTree = "<group>"; };
 		D8CD0DBA2B221B3300B6726A /* Shirts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shirts.swift; sourceTree = "<group>"; };
+		D8CD0DBC2B221E7100B6726A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		D85793862B02767C00079E1E = {
 			isa = PBXGroup;
 			children = (
+				D8CD0DBC2B221E7100B6726A /* Menu.swift */,
 				D85793912B02767C00079E1E /* Reputation Lookbook */,
 				D85793902B02767C00079E1E /* Products */,
 			);
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CD0DBD2B221E7100B6726A /* Menu.swift in Sources */,
 				D8CD0DB92B221A7A00B6726A /* Zips.swift in Sources */,
 				D8CD0DBB2B221B3300B6726A /* Shirts.swift in Sources */,
 				D85793952B02767C00079E1E /* ContentView.swift in Sources */,
