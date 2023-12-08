@@ -19,6 +19,12 @@ struct Menu: View {
                     Spacer()
                     Text(phrase)
                     
+                    Text("Click Type of Item to View!")
+                        .foregroundColor(Color.white)
+                        .font(Font.system(size: 25))
+                        .font(.title).bold()
+                        Spacer()
+                    
                     NavigationLink("Pullovers", destination: Hoodies(phrase: " "))
                         .foregroundColor(Color.white)
                         .font(Font.system(size: 35))
@@ -38,9 +44,10 @@ struct Menu: View {
                     Spacer()
                 }
             }
-            .navigationTitle(" ")
+            .navigationTitle("Menu")
+            .navigationBarHidden(true)
         }
-        .navigationTitle(" ")
+        
     }
 }
     

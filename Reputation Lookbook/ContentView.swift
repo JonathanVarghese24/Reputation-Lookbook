@@ -30,18 +30,25 @@ struct ContentView: View {
                     Spacer()
                         .padding()
                     
+                    HStack {
+                        Link("Website", destination: URL(string: "https://www.shoprep.xyz/password")!)
+                            .foregroundColor(Color.white)
+                            .font(Font.system(size: 25))
+                            .font(.title).bold()
+                        Image(systemName: "globe")
+                            .foregroundColor(Color.white)
+                    }
                     
-                    Link("Website Link", destination: URL(string: "https://www.shoprep.xyz/password")!)
-                        .foregroundColor(Color.white)
-                        .font(Font.system(size: 25))
-                        .font(.title).bold()
+                    .padding()
                     
-                    Link("Instagram", destination: URL(string: "https://www.instagram.com/reputation.apparel/")!)
-                        .foregroundColor(Color.white)
-                        .font(Font.system(size: 25))
-                        .font(.title).bold()
-                        .padding()
-                    
+                    HStack {
+                        Link("Instagram", destination: URL(string: "https://www.instagram.com/reputation.apparel/")!)
+                            .foregroundColor(Color.white)
+                            .font(Font.system(size: 25))
+                            .font(.title).bold()
+                        Image(systemName: "camera")
+                            .foregroundColor(Color.white)
+                    }
                 }
             }
         }
@@ -56,42 +63,3 @@ struct ContentView: View {
             }
         }
 
-/*
-    NavigationLink("Pullovers", destination: Hoodies(phrase: " "))
-        .foregroundColor(Color.white)
-        .font(Font.system(size: 35))
-        .font(.title).bold()
-        .padding()
-
-    NavigationLink("Zip Ups", destination: Zips(phrase: " "))
-        .foregroundColor(Color.white)
-        .font(Font.system(size: 35))
-        .font(.title).bold()
-        .padding()
-
-    NavigationLink("T-Shirts", destination: Shirts(phrase: " "))
-        .foregroundColor(Color.white)
-        .font(Font.system(size: 35))
-        .font(.title).bold()
-    Spacer()
-}
-}
-.navigationTitle(" ")
-}
-*/
-
- /*
-    Button("Hold"){
-    gameScore += turnScore
-    endTurn()
-    withAnimation(.easeOut(duration: 1.0)){
-        rotation += 360
-    }
-    if gameScore >= 100 {
-        gameOver = true
-    }
-}
-}
-.buttonStyle(CustomButtonStyle())
-.padding()
-*/

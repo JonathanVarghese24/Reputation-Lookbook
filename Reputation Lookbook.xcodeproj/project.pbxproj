@@ -47,7 +47,6 @@
 		D85793862B02767C00079E1E = {
 			isa = PBXGroup;
 			children = (
-				D8CD0DBC2B221E7100B6726A /* Menu.swift */,
 				D85793912B02767C00079E1E /* Reputation Lookbook */,
 				D85793902B02767C00079E1E /* Products */,
 			);
@@ -66,6 +65,7 @@
 			children = (
 				D85793922B02767C00079E1E /* Reputation_LookbookApp.swift */,
 				D85793942B02767C00079E1E /* ContentView.swift */,
+				D8CD0DBC2B221E7100B6726A /* Menu.swift */,
 				D8CD0DB62B20CB1B00B6726A /* Hoodies.swift */,
 				D8CD0DB82B221A7A00B6726A /* Zips.swift */,
 				D8CD0DBA2B221B3300B6726A /* Shirts.swift */,
