@@ -18,8 +18,6 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .font(Font.system(size: 30))
                         .font(.title).bold()
-                        .padding()
-                    Spacer()
                     
                     NavigationLink("Next", destination: Menu(phrase: " "))
                         .font(Font.system(size: 30))
@@ -51,6 +49,8 @@ struct ContentView: View {
                     }
                 }
             }
+            .navigationTitle("Start")
+            .navigationBarHidden(true)
         }
     }
 }

@@ -16,6 +16,21 @@ struct Zips: View {
                 Image("logo").resizable().frame(width: 200, height: 200)
                 Spacer()
                 Text(phrase)
+                
+                ScrollView {
+                    VStack(spacing: 20) {
+                        
+                        Image("black_zip").resizable().frame(width: 519.6, height: 692.4)
+                        
+                        
+                        Image("mocha_zip").resizable().frame(width: 519.6, height: 692.4)
+                        
+                        Image("cream_zip").resizable().frame(width: 519.6, height: 692.4)
+                        
+                    }
+                }
+                Spacer()
+
             }
             .navigationTitle(" ")
         }
@@ -23,7 +38,7 @@ struct Zips: View {
 }
     struct Zips_Previews: PreviewProvider {
         static var previews: some View {
-            Hoodies(phrase: " ")
+            Zips(phrase: " ")
         }
     }
 
