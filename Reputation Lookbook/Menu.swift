@@ -10,7 +10,6 @@ import SwiftUI
 struct Menu: View {
     let phrase : String
     var body: some View {
-        NavigationView{
             ZStack{
                 Color.black.opacity(0.7).ignoresSafeArea()
                 VStack{
@@ -30,23 +29,27 @@ struct Menu: View {
                         .font(Font.system(size: 35))
                         .font(.title).bold()
                         .padding()
-                    
+                        .foregroundColor(Color.white)
+
                     NavigationLink("Zip Ups", destination: Zips(phrase: " "))
                         .foregroundColor(Color.white)
                         .font(Font.system(size: 35))
                         .font(.title).bold()
                         .padding()
-                    
+                        .foregroundColor(Color.white)
+
                     NavigationLink("T-Shirts", destination: Shirts(phrase: " "))
                         .foregroundColor(Color.white)
                         .font(Font.system(size: 35))
                         .font(.title).bold()
+                        .foregroundColor(Color.white)
+                    
                     Spacer()
                 }
+                .navigationTitle("Menu")
+                .navigationBarHidden(true)
+                
             }
-            .navigationTitle("Menu")
-            .navigationBarHidden(true)
-        }
     }
 
 }
