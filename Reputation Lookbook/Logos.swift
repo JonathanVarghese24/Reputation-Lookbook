@@ -41,13 +41,3 @@ struct Logos: View {
             Logos(phrase: " ")
         }
     }
-
-/*Color.black.opacity(0.8).ignoresSafeArea()
-VStack{
-    Image("logo").resizable().frame(width: 300, height: 300)
-    Text("Collection and Concepts")
-        .foregroundColor(Color.white)
-        .font(Font.system(size: 15))
-        .font(.title).bold()
-        .padding()
-*/
